@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map Main Widget View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OSCAMapMainWidgetViewController" id="Y6W-OH-hqX" customClass="OSCAMapMainWidgetViewController" customModule="OSCAMapUI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZv-GE-aQl">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgB-KU-Z2m">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="759"/>
+                                        <standardMapConfiguration key="preferredConfiguration"/>
+                                    </mapView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="GgB-KU-Z2m" firstAttribute="leading" secondItem="GZv-GE-aQl" secondAttribute="leading" id="1SG-Au-Ggq"/>
+                                    <constraint firstAttribute="trailing" secondItem="GgB-KU-Z2m" secondAttribute="trailing" id="NuB-s6-DJh"/>
+                                    <constraint firstItem="GgB-KU-Z2m" firstAttribute="top" secondItem="GZv-GE-aQl" secondAttribute="top" id="O8o-RZ-OVu"/>
+                                    <constraint firstAttribute="bottom" secondItem="GgB-KU-Z2m" secondAttribute="bottom" id="jfj-R0-XX7"/>
+                                    <constraint firstAttribute="height" priority="750" constant="759" id="zjq-Hd-m1z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GZv-GE-aQl" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="9ti-8C-bDS"/>
+                            <constraint firstItem="GZv-GE-aQl" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="P52-vf-Zzs"/>
+                            <constraint firstItem="GZv-GE-aQl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="SSL-Qh-xDe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GZv-GE-aQl" secondAttribute="trailing" id="xXf-aS-xX6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapContainerHeightConstraint" destination="zjq-Hd-m1z" id="pyY-Qe-rfi"/>
+                        <outlet property="mapView" destination="GgB-KU-Z2m" id="4fJ-GR-diX"/>
+                        <outlet property="mapViewContainer" destination="GZv-GE-aQl" id="xNr-Uv-bLk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

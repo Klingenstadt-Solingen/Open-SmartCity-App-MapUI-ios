@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OSCABottomSheetCollectionViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/OSCABottomSheetCollectionViewController" class="dashAnchor"></a>
+    <a title="OSCABottomSheetCollectionViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        OSCABottomSheetCollectionViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController.html">OSCABottomSheetCollectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController/ViewCellReuseIdentifiers.html">– ViewCellReuseIdentifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel.html">OSCABottomSheetCollectionViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetHeaderCell.html">OSCABottomSheetHeaderCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewController.html">OSCAMapDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel.html">OSCAMapDetailsViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapFlowCoordinator.html">OSCAMapFlowCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapUIDIContainer.html">OSCAMapUIDIContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewController.html">OSCAMapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewModel.html">OSCAMapViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OSCABottomSheetCollectionViewModelState.html">OSCABottomSheetCollectionViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapDetailsViewModelState.html">OSCAMapDetailsViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapViewModelState.html">OSCAMapViewModelState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCAMapFlowCoordinatorDependencies.html">OSCAMapFlowCoordinatorDependencies</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9OSCAMapUI41OSCABottomSheetCollectionViewModelActionsV">OSCABottomSheetCollectionViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailHtmlViewModel.html">OSCABottomSheetDetailHtmlViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel.html">OSCABottomSheetDetailTelViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel/PhoneType.html">– PhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTextViewModel.html">OSCABottomSheetDetailTextViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailURLViewModel.html">OSCABottomSheetDetailURLViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModel.html">OSCABottomSheetHeaderViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModelActions.html">OSCABottomSheetHeaderViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapDetailsViewModelActions.html">OSCAMapDetailsViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUI.html">OSCAMapUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIConfig.html">OSCAMapUIConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIDependencies.html">OSCAMapUIDependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapViewModelActions.html">OSCAMapViewModelActions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OSCABottomSheetCollectionViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">OSCABottomSheetCollectionViewController</span> <span class="p">:</span> <span class="kt">UICollectionViewController</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCABottomSheetCollectionViewController</span><span class="p">:</span> <span class="kt">Alertable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCABottomSheetCollectionViewController</span><span class="p">:</span> <span class="kt">ActivityIndicatable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCABottomSheetCollectionViewController</span><span class="p">:</span> <span class="kt">StoryboardInstantiable</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Nested%20Types"></a>
+                <a name="//apple_ref/swift/Section/Nested Types" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Nested%20Types"></a>
+                  <h3 class="section-name"><span>Nested Types</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC0F20CellReuseIdentifiersO"></a>
+                    <a name="//apple_ref/swift/Enum/ViewCellReuseIdentifiers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC0F20CellReuseIdentifiersO">ViewCellReuseIdentifiers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>nested type <code>Enum</code>for identifing the view cells for reuse</p>
+
+                        <a href="../Classes/OSCABottomSheetCollectionViewController/ViewCellReuseIdentifiers.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ViewCellReuseIdentifiers</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CaseIterable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC017activityIndicatorF014OSCAEssentials08ActivityiF0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/activityIndicatorView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC017activityIndicatorF014OSCAEssentials08ActivityiF0Cvp">activityIndicatorView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>handle to the activity indicator</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">activityIndicatorView</span><span class="p">:</span> <span class="kt">ActivityIndicatorView</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/controller%27s%20lifecycle%20methods"></a>
+                <a name="//apple_ref/swift/Section/controller&#39;s lifecycle methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/controller%27s%20lifecycle%20methods"></a>
+                  <h3 class="section-name"><span>controller&rsquo;s lifecycle methods</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called after the controller&rsquo;s view is loaded into memory.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewWillAppear:">viewWillAppear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called before the controlller&rsquo;s view will appear</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidAppear:">viewDidAppear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called after the controller&rsquo;s view did appear</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewWillDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewWillDisappear:">viewWillDisappear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called before the controller&rsquo;s view will disappear</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OSCAMapUI@objc(cs)OSCABottomSheetCollectionViewController(im)viewDidDisappear:">viewDidDisappear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called after the controllers&rsquo;s view did disappear</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/controller%20creation"></a>
+                <a name="//apple_ref/swift/Section/controller creation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/controller%20creation"></a>
+                  <h3 class="section-name"><span>controller creation</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC6create4withAcA0cdeF5ModelC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI39OSCABottomSheetCollectionViewControllerC6create4withAcA0cdeF5ModelC_tFZ">create(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>function class: var vc = OSCABottomSheetCollectionViewController.create(viewModel)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="n">with</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/OSCABottomSheetCollectionViewModel.html">OSCABottomSheetCollectionViewModel</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">OSCABottomSheetCollectionViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

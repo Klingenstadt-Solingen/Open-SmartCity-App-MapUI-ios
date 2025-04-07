@@ -1,0 +1,34 @@
+//
+//  Localizable.strings
+//  OSCAContactUI
+//  language: en
+//  Created by Stephan Breidenbach on 17.03.22.
+//
+// bottom sheet header route to button info text
+"bottom_sheet_header_route_to_button_info_text" = "Route";
+// bottom sheet search text field placeholder info text
+"bottom_sheet_search_text_field_placeholderinfo_text" = "Search";
+// poi category header title info text
+"poi_category_header_title_info_text" = "Categories"; 
+// poi category header show all info text
+"poi_category_header_show_all_info_text" = "Show all";
+"ERROR_MAIL_NOT_AVAILABLE_TITLE" = "Error";
+"ERROR_MAIL_NOT_AVAILABLE_MESSAGE" = "Your phone isn't able to send emails";
+"ERROR_MAIL_NOT_AVAILABLE_ACTION" = "Oh no...";
+"CANCEL_ACTION" = "Cancel";
+"CALC_DIRECTIONS_GOOGLE_TITLE" = "Google Maps";
+"CALC_DIRECTIONS_MAPS_TITLE" = "Apple Maps";
+"CALC_DIRECTIONS_CANCEL_TITLE" = "Cancel";
+"POI_SHARE_TEXT" = "Gerade in der Mensch, Solingen App gefunden. Interessant für dich?";
+"POI_FILTER_SELECT_OPTION" = "Select";
+// The text sharing a poi
+"map_poi_details_share_poi_message" = "I found the following interesting place:";
+// The message to show when poi category filters are empty
+"map_category_detail_empty_message" = "There are currently no filters available";
+// Searchbar placeholder
+"searchbar_placeholder" = "Search";
+
+// MARK: Map Widget
+
+// The widget title
+"map_widget_title" = "";

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OSCABottomSheetHeaderViewModel Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/OSCABottomSheetHeaderViewModel" class="dashAnchor"></a>
+    <a title="OSCABottomSheetHeaderViewModel Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        OSCABottomSheetHeaderViewModel Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController.html">OSCABottomSheetCollectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController/ViewCellReuseIdentifiers.html">– ViewCellReuseIdentifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel.html">OSCABottomSheetCollectionViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetHeaderCell.html">OSCABottomSheetHeaderCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewController.html">OSCAMapDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel.html">OSCAMapDetailsViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapFlowCoordinator.html">OSCAMapFlowCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapUIDIContainer.html">OSCAMapUIDIContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewController.html">OSCAMapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewModel.html">OSCAMapViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OSCABottomSheetCollectionViewModelState.html">OSCABottomSheetCollectionViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapDetailsViewModelState.html">OSCAMapDetailsViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapViewModelState.html">OSCAMapViewModelState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCAMapFlowCoordinatorDependencies.html">OSCAMapFlowCoordinatorDependencies</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9OSCAMapUI41OSCABottomSheetCollectionViewModelActionsV">OSCABottomSheetCollectionViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailHtmlViewModel.html">OSCABottomSheetDetailHtmlViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel.html">OSCABottomSheetDetailTelViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel/PhoneType.html">– PhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTextViewModel.html">OSCABottomSheetDetailTextViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailURLViewModel.html">OSCABottomSheetDetailURLViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModel.html">OSCABottomSheetHeaderViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModelActions.html">OSCABottomSheetHeaderViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapDetailsViewModelActions.html">OSCAMapDetailsViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUI.html">OSCAMapUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIConfig.html">OSCAMapUIConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIDependencies.html">OSCAMapUIDependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapViewModelActions.html">OSCAMapViewModelActions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OSCABottomSheetHeaderViewModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">OSCABottomSheetHeaderViewModel</span></code></pre>
+
+                </div>
+              </div>
+            <p>bottom sheet header view cell&rsquo;s view model</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV_11colorConfig04fontI07actionsAC0A07OSCAPoiV_14OSCAEssentials17OSCAColorSettingsVAJ08OSCAFontO0VAA0cdefG7ActionsVtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:colorConfig:fontConfig:actions:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV_11colorConfig04fontI07actionsAC0A07OSCAPoiV_14OSCAEssentials17OSCAColorSettingsVAJ08OSCAFontO0VAA0cdefG7ActionsVtcfc">init(_:<wbr>colorConfig:<wbr>fontConfig:<wbr>actions:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>inject data, color settings and type face settings</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span> <span class="p">(</span><span class="n">_</span> <span class="nv">poi</span><span class="p">:</span> <span class="kt">OSCAPoi</span><span class="p">,</span>
+             <span class="nv">colorConfig</span><span class="p">:</span> <span class="kt">OSCAColorSettings</span><span class="p">,</span>
+             <span class="nv">fontConfig</span> <span class="p">:</span> <span class="kt">OSCAFontSettings</span><span class="p">,</span>
+             <span class="nv">actions</span>    <span class="p">:</span> <span class="kt"><a href="../Structs/OSCABottomSheetHeaderViewModelActions.html">OSCABottomSheetHeaderViewModelActions</a></span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>poi</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>POI data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>colorConfig</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>ui module color settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontConfig</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>ui module font settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>actions</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>object with action closures that can be invoked by the view model</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/view%20element%20color%20settings"></a>
+                <a name="//apple_ref/swift/Section/view element color settings" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/view%20element%20color%20settings"></a>
+                  <h3 class="section-name"><span>view element color settings</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE19TitleLabelTextColors6UInt32Vvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderTitleLabelTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE19TitleLabelTextColors6UInt32Vvp">bottomSheetHeaderTitleLabelTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>color hex of the bottom sheet header title label&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderTitleLabelTextColor</span><span class="p">:</span> <span class="kt">UInt32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE22SubTitleLabelTextColors6UInt32Vvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderSubTitleLabelTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE22SubTitleLabelTextColors6UInt32Vvp">bottomSheetHeaderSubTitleLabelTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>color hex of the bottom sheet header sub title label&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderSubTitleLabelTextColor</span><span class="p">:</span> <span class="kt">UInt32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE28RouteToButtonBackgroundColors6UInt32Vvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderRouteToButtonBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE28RouteToButtonBackgroundColors6UInt32Vvp">bottomSheetHeaderRouteToButtonBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>color hex of the bottom sheet header routeTo button&rsquo;s background</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderRouteToButtonBackgroundColor</span><span class="p">:</span> <span class="kt">UInt32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV05botomD27HeaerRouteToButtonTextColors6UInt32Vvp"></a>
+                    <a name="//apple_ref/swift/Property/botomSheetHeaerRouteToButtonTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV05botomD27HeaerRouteToButtonTextColors6UInt32Vvp">botomSheetHeaerRouteToButtonTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>color hex of the bottom sheet header routeTo button&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">botomSheetHeaerRouteToButtonTextColor</span><span class="p">:</span> <span class="kt">UInt32</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/view%20element%20type%20face%20settings"></a>
+                <a name="//apple_ref/swift/Section/view element type face settings" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/view%20element%20type%20face%20settings"></a>
+                  <h3 class="section-name"><span>view element type face settings</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE18TitleLabelTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderTitleLabelTypeFace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE18TitleLabelTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp">bottomSheetHeaderTitleLabelTypeFace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>typeface of the bottom sheet header title label&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderTitleLabelTypeFace</span><span class="p">:</span> <span class="kt">OSCAFontSettings</span><span class="o">.</span><span class="kt">Keys</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE21SubTitleLabelTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderSubTitleLabelTypeFace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE21SubTitleLabelTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp">bottomSheetHeaderSubTitleLabelTypeFace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>typeface of the bottom sheet header sub  title label&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderSubTitleLabelTypeFace</span><span class="p">:</span> <span class="kt">OSCAFontSettings</span><span class="o">.</span><span class="kt">Keys</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE21RouteToButtonTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomSheetHeaderRouteToButtonTypeFace" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV06bottomdE21RouteToButtonTypeFace14OSCAEssentials16OSCAFontSettingsV4KeysOvp">bottomSheetHeaderRouteToButtonTypeFace</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>typeface of the bottom sheet header route to button&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bottomSheetHeaderRouteToButtonTypeFace</span><span class="p">:</span> <span class="kt">OSCAFontSettings</span><span class="o">.</span><span class="kt">Keys</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/view%20model%20INPUT"></a>
+                <a name="//apple_ref/swift/Section/view model INPUT" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/view%20model%20INPUT"></a>
+                  <h3 class="section-name"><span>view model INPUT</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV19routeToButtonTabbedyyF"></a>
+                    <a name="//apple_ref/swift/Method/routeToButtonTabbed()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV19routeToButtonTabbedyyF">routeToButtonTabbed()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">routeToButtonTabbed</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/view%20model%20OUTPUT"></a>
+                <a name="//apple_ref/swift/Section/view model OUTPUT" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/view%20model%20OUTPUT"></a>
+                  <h3 class="section-name"><span>view model OUTPUT</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV11headerTitleSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/headerTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV11headerTitleSSSgvp">headerTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>optional header title</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">headerTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV14headerSubTitleSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/headerSubTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV14headerSubTitleSSSgvp">headerSubTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>optional header subtitle with optional distance calculation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">headerSubTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV17showRouteToButtonSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showRouteToButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV17showRouteToButtonSbvp">showRouteToButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>show route to button?</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">showRouteToButton</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV24headerRouteToButtonTitleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/headerRouteToButtonTitle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV24headerRouteToButtonTitleSSvp">headerRouteToButtonTitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>localized header route to button title info text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">headerRouteToButtonTitle</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV5fonts14OSCAEssentials16OSCAFontSettingsVvp"></a>
+                    <a name="//apple_ref/swift/Property/fonts" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI30OSCABottomSheetHeaderViewModelV5fonts14OSCAEssentials16OSCAFontSettingsVvp">fonts</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>public wrapper of font config</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">fonts</span><span class="p">:</span> <span class="kt">OSCAFontSettings</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

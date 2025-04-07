@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "iconfinder_vacation-camper-camping-travel-transportation_3190061-svg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

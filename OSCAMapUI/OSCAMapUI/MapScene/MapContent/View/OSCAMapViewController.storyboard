@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OSCAMapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="OSCAMapViewController" customModule="OSCAMapUI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DeC-Pk-zrm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </mapView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W3P-MX-rCb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uz6-3H-jku">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="DeC-Pk-zrm" secondAttribute="bottom" id="5lC-hn-q32"/>
+                            <constraint firstItem="DeC-Pk-zrm" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="5wi-De-9QH"/>
+                            <constraint firstItem="W3P-MX-rCb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="9uJ-Uq-Jdl"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="W3P-MX-rCb" secondAttribute="trailing" id="GYN-ix-XBs"/>
+                            <constraint firstItem="W3P-MX-rCb" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="KfZ-v0-Mub"/>
+                            <constraint firstAttribute="trailing" secondItem="DeC-Pk-zrm" secondAttribute="trailing" id="bR3-ZM-6fs"/>
+                            <constraint firstItem="DeC-Pk-zrm" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="hUy-Po-ngz"/>
+                            <constraint firstItem="W3P-MX-rCb" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="top" id="kmm-39-OCI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="DeC-Pk-zrm" id="RjH-Xi-ko4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61" y="47"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

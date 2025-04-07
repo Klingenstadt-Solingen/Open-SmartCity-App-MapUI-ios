@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OSCAMapViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/OSCAMapViewController" class="dashAnchor"></a>
+    <a title="OSCAMapViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 0.0.9 Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        OSCAMapViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController.html">OSCABottomSheetCollectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewController/ViewCellReuseIdentifiers.html">– ViewCellReuseIdentifiers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel.html">OSCABottomSheetCollectionViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetCollectionViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCABottomSheetHeaderCell.html">OSCABottomSheetHeaderCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewController.html">OSCAMapDetailsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel.html">OSCAMapDetailsViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapDetailsViewModel/Dependencies.html">– Dependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapFlowCoordinator.html">OSCAMapFlowCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapUIDIContainer.html">OSCAMapUIDIContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewController.html">OSCAMapViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OSCAMapViewModel.html">OSCAMapViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OSCABottomSheetCollectionViewModelState.html">OSCABottomSheetCollectionViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapDetailsViewModelState.html">OSCAMapDetailsViewModelState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OSCAMapViewModelState.html">OSCAMapViewModelState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/OSCAMapFlowCoordinatorDependencies.html">OSCAMapFlowCoordinatorDependencies</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:9OSCAMapUI41OSCABottomSheetCollectionViewModelActionsV">OSCABottomSheetCollectionViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailHtmlViewModel.html">OSCABottomSheetDetailHtmlViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel.html">OSCABottomSheetDetailTelViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTelViewModel/PhoneType.html">– PhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailTextViewModel.html">OSCABottomSheetDetailTextViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetDetailURLViewModel.html">OSCABottomSheetDetailURLViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModel.html">OSCABottomSheetHeaderViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCABottomSheetHeaderViewModelActions.html">OSCABottomSheetHeaderViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapDetailsViewModelActions.html">OSCAMapDetailsViewModelActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUI.html">OSCAMapUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIConfig.html">OSCAMapUIConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapUIDependencies.html">OSCAMapUIDependencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OSCAMapViewModelActions.html">OSCAMapViewModelActions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OSCAMapViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">OSCAMapViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCAMapViewController</span><span class="p">:</span> <span class="kt">CLLocationManagerDelegate</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCAMapViewController</span><span class="p">:</span> <span class="kt">MKMapViewDelegate</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCAMapViewController</span><span class="p">:</span> <span class="kt">Alertable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCAMapViewController</span><span class="p">:</span> <span class="kt">ActivityIndicatable</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">OSCAMapViewController</span><span class="p">:</span> <span class="kt">StoryboardInstantiable</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI0A14ViewControllerC017activityIndicatorC014OSCAEssentials08ActivityfC0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/activityIndicatorView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI0A14ViewControllerC017activityIndicatorC014OSCAEssentials08ActivityfC0Cvp">activityIndicatorView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>handle to the activity indicator</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">activityIndicatorView</span><span class="p">:</span> <span class="kt">ActivityIndicatorView</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/class%20functions"></a>
+                <a name="//apple_ref/swift/Section/class functions" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/class%20functions"></a>
+                  <h3 class="section-name"><span>class functions</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI0A14ViewControllerC8openMaps5start11destination10completiony14OSCAEssentials12OSCAGeoPointV_AJySbXEtFZ"></a>
+                    <a name="//apple_ref/swift/Method/openMaps(start:destination:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI0A14ViewControllerC8openMaps5start11destination10completiony14OSCAEssentials12OSCAGeoPointV_AJySbXEtFZ">openMaps(start:<wbr>destination:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>wrapper <code>class</code>method of <code>MapKit.MKMapItem</code>
+it opens <code>Maps</code>with start and destination locations and centers the map around <code>start</code> with walking mode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">openMaps</span><span class="p">(</span><span class="nv">start</span><span class="p">:</span> <span class="kt">OSCAGeoPoint</span><span class="p">,</span> <span class="nv">destination</span><span class="p">:</span> <span class="kt">OSCAGeoPoint</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>start</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>start geo point</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>destination</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>destination geo point</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>completion closure with <code>success</code> Parameter</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/controller%27s%20lifecycle%20methods"></a>
+                <a name="//apple_ref/swift/Section/controller&#39;s lifecycle methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/controller%27s%20lifecycle%20methods"></a>
+                  <h3 class="section-name"><span>controller&rsquo;s lifecycle methods</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>controller&rsquo;s lifecycle method <code>viewDidLoad</code></p>
+
+<ul>
+<li>setup controller&rsquo;s view elements</li>
+<li>invoke view model method</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidLayoutSubviews"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLayoutSubviews()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidLayoutSubviews">viewDidLayoutSubviews()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>controller&rsquo;s lifecycle method <code>viewDidLayoutSubviews</code></p>
+
+<ul>
+<li>invoke view model method</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLayoutSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewWillAppear:">viewWillAppear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>controller&rsquo;s lifecycle method <code>viewWillAppear</code></p>
+
+<ul>
+<li>invoke view model method</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewDidAppear:">viewDidAppear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>controller&rsquo;s lifecycle method <code>viewDidAppear</code></p>
+
+<ul>
+<li>invoke view model method</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewWillDisappear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillDisappear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)viewWillDisappear:">viewWillDisappear(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>controller&rsquo;s lifecycle method <code>viewWillDisappear</code>
+invoke view model method</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillDisappear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/add%20extra%20view%20elements%20programmatically"></a>
+                <a name="//apple_ref/swift/Section/add extra view elements programmatically" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/add%20extra%20view%20elements%20programmatically"></a>
+                  <h3 class="section-name"><span>add extra view elements programmatically</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI0A14ViewControllerC6addFAB2onySo6UIViewC_tF"></a>
+                    <a name="//apple_ref/swift/Method/addFAB(on:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI0A14ViewControllerC6addFAB2onySo6UIViewC_tF">addFAB(on:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addFAB</span><span class="p">(</span><span class="n">on</span> <span class="nv">containerView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)fabPressed:"></a>
+                    <a name="//apple_ref/swift/Method/fabPressed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)fabPressed:">fabPressed(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">fabPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Responding%20to%20Authorization%20Changes"></a>
+                <a name="//apple_ref/swift/Section/Responding to Authorization Changes" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Responding%20to%20Authorization%20Changes"></a>
+                  <h3 class="section-name"><span>Responding to Authorization Changes</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidChangeAuthorization:"></a>
+                    <a name="//apple_ref/swift/Method/locationManagerDidChangeAuthorization(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidChangeAuthorization:">locationManagerDidChangeAuthorization(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code> was created by the app or the authorization status has changed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManagerDidChangeAuthorization</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Handling%20Errors"></a>
+                <a name="//apple_ref/swift/Section/Handling Errors" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Handling%20Errors"></a>
+                  <h3 class="section-name"><span>Handling Errors</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didFailWithError:"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didFailWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didFailWithError:">locationManager(_:<wbr>didFailWithError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code> was unable to retrieve a location value
+<a href="https://www.raywenderlich.com/books/ios-apprentice/v8.3/chapters/22-get-location-data">see Tutorial</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="nv">didFailWithError</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Responding%20to%20Location%20Events"></a>
+                <a name="//apple_ref/swift/Section/Responding to Location Events" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Responding%20to%20Location%20Events"></a>
+                  <h3 class="section-name"><span>Responding to Location Events</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didUpdateLocations:"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didUpdateLocations:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didUpdateLocations:">locationManager(_:<wbr>didUpdateLocations:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code>: new location data is available</p>
+
+<p>trigger view model callback <code>locationManager(didUpdateLocations:)</code> if the <code>manager</code> is valid and the last <code>location</code> timestamp is less than 15 seconds ago</p>
+
+<p><a href="https://stackoverflow.com/questions/26059110/time-between-2-events">time interval</a></p>
+
+<p><a href="https://www.raywenderlich.com/books/ios-apprentice/v8.3/chapters/22-get-location-data">see Tutorial</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didUpdateLocations</span> <span class="nv">locations</span><span class="p">:</span> <span class="p">[</span><span class="kt">CLLocation</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didFinishDeferredUpdatesWithError:"></a>
+                    <a name="//apple_ref/swift/Method/locationManager(_:didFinishDeferredUpdatesWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManager:didFinishDeferredUpdatesWithError:">locationManager(_:<wbr>didFinishDeferredUpdatesWithError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code>: updates will no longer be deferred</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">,</span> <span class="n">didFinishDeferredUpdatesWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Pausing%20Location%20Updates"></a>
+                <a name="//apple_ref/swift/Section/Pausing Location Updates" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Pausing%20Location%20Updates"></a>
+                  <h3 class="section-name"><span>Pausing Location Updates</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidPauseLocationUpdates:"></a>
+                    <a name="//apple_ref/swift/Method/locationManagerDidPauseLocationUpdates(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidPauseLocationUpdates:">locationManagerDidPauseLocationUpdates(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code>: location updates were paused</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManagerDidPauseLocationUpdates</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidResumeLocationUpdates:"></a>
+                    <a name="//apple_ref/swift/Method/locationManagerDidResumeLocationUpdates(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)locationManagerDidResumeLocationUpdates:">locationManagerDidResumeLocationUpdates(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>manager</code>:  the delivery of location updates has resumed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">locationManagerDidResumeLocationUpdates</span><span class="p">(</span><span class="n">_</span> <span class="nv">manager</span><span class="p">:</span> <span class="kt">CLLocationManager</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/responding%20to%20map%20position%20changes"></a>
+                <a name="//apple_ref/swift/Section/responding to map position changes" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/responding%20to%20map%20position%20changes"></a>
+                  <h3 class="section-name"><span>responding to map position changes</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:regionWillChangeAnimated:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:regionWillChangeAnimated:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:regionWillChangeAnimated:">mapView(_:<wbr>regionWillChangeAnimated:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>: the region displayed by the map view is about to change</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">regionWillChangeAnimated</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:regionDidChangeAnimated:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:regionDidChangeAnimated:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:regionDidChangeAnimated:">mapView(_:<wbr>regionDidChangeAnimated:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> : the region displayed by the map view just changed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">regionDidChangeAnimated</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidChangeVisibleRegion:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewDidChangeVisibleRegion(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidChangeVisibleRegion:">mapViewDidChangeVisibleRegion(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The <code>mapView</code>: the region dispayed by the map view just changed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewDidChangeVisibleRegion</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/loading%20the%20map%20data"></a>
+                <a name="//apple_ref/swift/Section/loading the map data" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/loading%20the%20map%20data"></a>
+                  <h3 class="section-name"><span>loading the map data</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartLoadingMap:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewWillStartLoadingMap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartLoadingMap:">mapViewWillStartLoadingMap(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>is about to retreive some map data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewWillStartLoadingMap</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFinishLoadingMap:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewDidFinishLoadingMap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFinishLoadingMap:">mapViewDidFinishLoadingMap(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> successfully loaded the needed map data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewDidFinishLoadingMap</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFailLoadingMap:withError:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewDidFailLoadingMap(_:withError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFailLoadingMap:withError:">mapViewDidFailLoadingMap(_:<wbr>withError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> was unable to load the map data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewDidFailLoadingMap</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">withError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartRenderingMap:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewWillStartRenderingMap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartRenderingMap:">mapViewWillStartRenderingMap(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>is about to start rendering some of its tiles</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewWillStartRenderingMap</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFinishRenderingMap:fullyRendered:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewDidFinishRenderingMap(_:fullyRendered:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidFinishRenderingMap:fullyRendered:">mapViewDidFinishRenderingMap(_:<wbr>fullyRendered:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>has finished rendering all visible tiles</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewDidFinishRenderingMap</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="nv">fullyRendered</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Tracking%20the%20user%20location"></a>
+                <a name="//apple_ref/swift/Section/Tracking the user location" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Tracking%20the%20user%20location"></a>
+                  <h3 class="section-name"><span>Tracking the user location</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartLocatingUser:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewWillStartLocatingUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewWillStartLocatingUser:">mapViewWillStartLocatingUser(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>will start tracking the users&rsquo;s location*</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewWillStartLocatingUser</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidStopLocatingUser:"></a>
+                    <a name="//apple_ref/swift/Method/mapViewDidStopLocatingUser(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapViewDidStopLocatingUser:">mapViewDidStopLocatingUser(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code>stopped tracking the user&rsquo;s location</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapViewDidStopLocatingUser</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didUpdateUserLocation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didUpdate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didUpdateUserLocation:">mapView(_:<wbr>didUpdate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> tells that the <code>userLocation</code> was updated</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didUpdate</span> <span class="nv">userLocation</span><span class="p">:</span> <span class="kt">MKUserLocation</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didFailToLocateUserWithError:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didFailToLocateUserWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didFailToLocateUserWithError:">mapView(_:<wbr>didFailToLocateUserWithError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> failed to locate the user&rsquo;s position</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didFailToLocateUserWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didChangeUserTrackingMode:animated:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didChange:animated:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didChangeUserTrackingMode:animated:">mapView(_:<wbr>didChange:<wbr>animated:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> changed the user&rsquo;s tracking mode</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didChange</span> <span class="nv">mode</span><span class="p">:</span> <span class="kt">MKUserTrackingMode</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Managing%20Annotation%20views"></a>
+                <a name="//apple_ref/swift/Section/Managing Annotation views" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Managing%20Annotation%20views"></a>
+                  <h3 class="section-name"><span>Managing Annotation views</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:viewForAnnotation:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:viewFor:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:viewForAnnotation:">mapView(_:<wbr>viewFor:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> returns the view associated with the specified annotation object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">viewFor</span> <span class="nv">annotation</span><span class="p">:</span> <span class="kt">MKAnnotation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">MKAnnotationView</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didAddAnnotationViews:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didAdd:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didAddAnnotationViews:">mapView(_:<wbr>didAdd:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> one or more annotation views were added to the map</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didAdd</span> <span class="nv">views</span><span class="p">:</span> <span class="p">[</span><span class="kt">MKAnnotationView</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:annotationView:calloutAccessoryControlTapped:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:annotationView:calloutAccessoryControlTapped:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:annotationView:calloutAccessoryControlTapped:">mapView(_:<wbr>annotationView:<wbr>calloutAccessoryControlTapped:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> the user tapped one of the annotation view&rsquo;s accessory buttons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">annotationView</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">,</span> <span class="n">calloutAccessoryControlTapped</span> <span class="nv">control</span><span class="p">:</span> <span class="kt">UIControl</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:clusterAnnotationForMemberAnnotations:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:clusterAnnotationForMemberAnnotations:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:clusterAnnotationForMemberAnnotations:">mapView(_:<wbr>clusterAnnotationForMemberAnnotations:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> to provide a cluster annotation object for the specified annotations</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">clusterAnnotationForMemberAnnotations</span> <span class="nv">memberAnnotations</span><span class="p">:</span> <span class="p">[</span><span class="kt">MKAnnotation</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">MKClusterAnnotation</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Dragging%20an%20Annotation%20View"></a>
+                <a name="//apple_ref/swift/Section/Dragging an Annotation View" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Dragging%20an%20Annotation%20View"></a>
+                  <h3 class="section-name"><span>Dragging an Annotation View</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:annotationView:didChangeDragState:fromOldState:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:annotationView:didChange:fromOldState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:annotationView:didChangeDragState:fromOldState:">mapView(_:<wbr>annotationView:<wbr>didChange:<wbr>fromOldState:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> that the drag state of one of its annotation views changed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">annotationView</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">,</span> <span class="n">didChange</span> <span class="nv">newState</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="o">.</span><span class="kt">DragState</span><span class="p">,</span> <span class="n">fromOldState</span> <span class="nv">oldState</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="o">.</span><span class="kt">DragState</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Selecting%20annotation%20Views"></a>
+                <a name="//apple_ref/swift/Section/Selecting annotation Views" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Selecting%20annotation%20Views"></a>
+                  <h3 class="section-name"><span>Selecting annotation Views</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didSelectAnnotationView:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didSelect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didSelectAnnotationView:">mapView(_:<wbr>didSelect:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> that one of its annotation views was selected</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didSelect</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didDeselectAnnotationView:"></a>
+                    <a name="//apple_ref/swift/Method/mapView(_:didDeselect:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OSCAMapUI@objc(cs)OSCAMapViewController(im)mapView:didDeselectAnnotationView:">mapView(_:<wbr>didDeselect:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>the <code>mapView</code> that one of its annotation views was deselected</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">mapView</span><span class="p">(</span><span class="n">_</span> <span class="nv">mapView</span><span class="p">:</span> <span class="kt">MKMapView</span><span class="p">,</span> <span class="n">didDeselect</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">MKAnnotationView</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/instantiate%20view%20controller"></a>
+                <a name="//apple_ref/swift/Section/instantiate view controller" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/instantiate%20view%20controller"></a>
+                  <h3 class="section-name"><span>instantiate view controller</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9OSCAMapUI0A14ViewControllerC6create4withAcA0aC5ModelC_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9OSCAMapUI0A14ViewControllerC6create4withAcA0aC5ModelC_tFZ">create(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>function call: var vc = OSCAMapViewController.create(viewModel)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="n">with</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/OSCAMapViewModel.html">OSCAMapViewModel</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">OSCAMapViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Stephan Breidenbach</a>. All rights reserved. (Last updated: 2022-03-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

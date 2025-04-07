@@ -1,0 +1,1179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110A2FC329266ABD0045DC91 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 110A2FC229266ABD0045DC91 /* DeviceKit */; };
+		110C13E627D5E52100903937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110C13E527D5E52100903937 /* Assets.xcassets */; };
+		1124175127CF3BF40043DAA7 /* OSCAMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124174F27CF3BF40043DAA7 /* OSCAMapUITests.swift */; };
+		1131738327E36A8B00D2CF93 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1131738127E36A8B00D2CF93 /* Localizable.strings */; };
+		1139EFF328C9C98B0050FAD4 /* MapFlow+OSCADeeplinkHandeble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139EFF228C9C98B0050FAD4 /* MapFlow+OSCADeeplinkHandeble.swift */; };
+		1139F00328C9D8900050FAD4 /* MapDI+DeeplinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139F00228C9D8900050FAD4 /* MapDI+DeeplinkHandler.swift */; };
+		1139F01328C9EB400050FAD4 /* UIViewController+BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139F01228C9EB400050FAD4 /* UIViewController+BottomSheet.swift */; };
+		1139F01528C9EB8D0050FAD4 /* UIScrollView+BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139F01428C9EB8D0050FAD4 /* UIScrollView+BottomSheet.swift */; };
+		11442BB527CE856A0021724A /* OSCAEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11442BB427CE856A0021724A /* OSCAEssentials.framework */; };
+		11442BB627CE856A0021724A /* OSCAEssentials.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11442BB427CE856A0021724A /* OSCAEssentials.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11442BBA27CE87830021724A /* OSCAMapUI+DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11442BB927CE87830021724A /* OSCAMapUI+DIContainer.swift */; };
+		1174D49628AA28A60054B200 /* OSCAMapCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D49428A965290054B200 /* OSCAMapCategoryViewController.swift */; };
+		1174D49728AA28BD0054B200 /* OSCAMapCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D49228A9651E0054B200 /* OSCAMapCategoryViewModel.swift */; };
+		1174D49828AA28C20054B200 /* OSCAMapCategoryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D49328A9651E0054B200 /* OSCAMapCategoryCellViewModel.swift */; };
+		1174D49928AA28CF0054B200 /* OSCAMapCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D49528A965290054B200 /* OSCAMapCategoryCollectionViewCell.swift */; };
+		11A5FD35287C3A190066ECFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A5FD32287C3A190066ECFE /* Localizable.strings */; };
+		11B2977728DB55C5006D9058 /* API_Develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11B2977528DB55C5006D9058 /* API_Develop.plist */; };
+		11B2977828DB55C5006D9058 /* API_Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11B2977628DB55C5006D9058 /* API_Release.plist */; };
+		11BE1D8628A9031200033A82 /* OSCAMapFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE1D8528A9031200033A82 /* OSCAMapFlowCoordinator.swift */; };
+		11C9226128AA8EE5004F33D3 /* OSCAMapUI+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C9226028AA8EE5004F33D3 /* OSCAMapUI+ViewModel.swift */; };
+		11DB48AE27CE6E5800C6CB87 /* OSCAMapUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB48A527CE6E5700C6CB87 /* OSCAMapUI.framework */; };
+		11DB48C527CE6EDE00C6CB87 /* OSCAMapUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DB48BD27CE6EDE00C6CB87 /* OSCAMapUI.swift */; };
+		11DB48C927CE6EDE00C6CB87 /* OSCAMapUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DB48C427CE6EDE00C6CB87 /* OSCAMapUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11DB48CC27CE6F5500C6CB87 /* OSCAMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB48CB27CE6F5500C6CB87 /* OSCAMap.framework */; };
+		11DB48CD27CE6F5500C6CB87 /* OSCAMap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB48CB27CE6F5500C6CB87 /* OSCAMap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11E377BF27F62039002B6042 /* Atomics in Frameworks */ = {isa = PBXBuildFile; productRef = 11E377BE27F62039002B6042 /* Atomics */; };
+		11F26BFD28AD3D4E005719EC /* OSCAPoiAnnotationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F26BFB28AD3D4E005719EC /* OSCAPoiAnnotationMarkerView.swift */; };
+		11F26BFE28AD3D4E005719EC /* OSCAPoiAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F26BFC28AD3D4E005719EC /* OSCAPoiAnnotationView.swift */; };
+		11F26C0028AD3D8B005719EC /* OSCAPoiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F26BFF28AD3D8B005719EC /* OSCAPoiAnnotation.swift */; };
+		11FC17102875E7350056F002 /* OSCATestCaseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FC170F2875E7350056F002 /* OSCATestCaseExtension.framework */; };
+		272EEB9628B4C7FD0099A8D5 /* OSCAPOISearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EEB9528B4C7FD0099A8D5 /* OSCAPOISearchResultViewModel.swift */; };
+		272EEB9828B4C80E0099A8D5 /* OSCAPOISearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EEB9728B4C80E0099A8D5 /* OSCAPOISearchResultTableViewCell.swift */; };
+		272EEB9F28B4E4880099A8D5 /* OSCAMapCategoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EEB9E28B4E4880099A8D5 /* OSCAMapCategoryDelegate.swift */; };
+		2768496E28B56AD200B301B8 /* OSCAPOIDetailImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768496D28B56AD200B301B8 /* OSCAPOIDetailImageCellViewModel.swift */; };
+		2768497028B56AE500B301B8 /* OSCAPOIDetailImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768496F28B56AE500B301B8 /* OSCAPOIDetailImageCollectionViewCell.swift */; };
+		27A85F302866636B007178CA /* BottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F2F2866636B007178CA /* BottomSheetController.swift */; };
+		27A85F362866674E007178CA /* OSCAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F352866674E007178CA /* OSCAMapViewController.swift */; };
+		27A85F38286667D0007178CA /* OSCAMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F37286667D0007178CA /* OSCAMapViewModel.swift */; };
+		27A85F3A286667E4007178CA /* OSCAMapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A85F39286667E4007178CA /* OSCAMapViewController.storyboard */; };
+		27A85F502866A8C7007178CA /* OSCAPOIDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A85F4F2866A8C7007178CA /* OSCAPOIDetailViewController.storyboard */; };
+		27A85F532866A8D4007178CA /* OSCAPOIDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F522866A8D4007178CA /* OSCAPOIDetailViewModel.swift */; };
+		27A85F552866A8D9007178CA /* OSCAPOIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F542866A8D9007178CA /* OSCAPOIDetailViewController.swift */; };
+		27A85F572866BB02007178CA /* OSCAPOIDetailTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F562866BB02007178CA /* OSCAPOIDetailTextViewModel.swift */; };
+		27A85F592866BB14007178CA /* OSCAPOIDetailTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A85F582866BB14007178CA /* OSCAPOIDetailTextTableViewCell.swift */; };
+		27CD944328B6750D00784067 /* OSCAPOIDetailHighlightedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD944228B6750D00784067 /* OSCAPOIDetailHighlightedViewModel.swift */; };
+		27CD944528B6752300784067 /* OSCAPOIDetailHighlightedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD944428B6752300784067 /* OSCAPOIDetailHighlightedTableViewCell.swift */; };
+		27D0142C28B3C70F007438B0 /* OSCAMapCategoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1174D49128A9611A0054B200 /* OSCAMapCategoryViewController.storyboard */; };
+		C86A989C2A091C1300C518D7 /* OSCAMapMainWidgetViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86A989B2A091C1300C518D7 /* OSCAMapMainWidgetViewController.storyboard */; };
+		C86A989E2A091C5B00C518D7 /* OSCAMapMainWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A989D2A091C5B00C518D7 /* OSCAMapMainWidgetViewController.swift */; };
+		C86A98A02A091EB700C518D7 /* OSCAMapMainWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A989F2A091EB700C518D7 /* OSCAMapMainWidgetViewModel.swift */; };
+		C86A98A22A09287300C518D7 /* OSCAMapWidgetFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A98A12A09287300C518D7 /* OSCAMapWidgetFlowCoordinator.swift */; };
+		C878EA2C28F7FEF000C3C59D /* OSCAMapFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878EA2B28F7FEF000C3C59D /* OSCAMapFilterCollectionViewCell.swift */; };
+		C878EA3028F80B6000C3C59D /* OSCAMapFilterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878EA2F28F80B6000C3C59D /* OSCAMapFilterCellViewModel.swift */; };
+		F715E842296C17F0005CBF7F /* OSCAMapCategoryDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F715E841296C17F0005CBF7F /* OSCAMapCategoryDetailViewController.storyboard */; };
+		F715E844296C1896005CBF7F /* OSCAMapCategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715E843296C1896005CBF7F /* OSCAMapCategoryDetailViewController.swift */; };
+		F715E846296C1955005CBF7F /* OSCAMapCategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715E845296C1955005CBF7F /* OSCAMapCategoryDetailViewModel.swift */; };
+		F76AA05B2976A6E200C006A9 /* OSCAMapCategoryDetailHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AA05A2976A6E200C006A9 /* OSCAMapCategoryDetailHeaderReusableView.swift */; };
+		F76AA05D2976A78100C006A9 /* OSCAMapCategoryDetailHeaderReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AA05C2976A78100C006A9 /* OSCAMapCategoryDetailHeaderReusableViewModel.swift */; };
+		F777DEFD296703C3000C7F25 /* OSCAMapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777DEFC296703C3000C7F25 /* OSCAMapContainerViewController.swift */; };
+		F777DF03296717D6000C7F25 /* OSCAMapContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F777DF02296717D6000C7F25 /* OSCAMapContainerViewModel.swift */; };
+		F777DF0529671E48000C7F25 /* OSCAMapContainerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F777DF0429671E48000C7F25 /* OSCAMapContainerViewController.storyboard */; };
+		F7817C2C29719F7C00320476 /* OSCAMapCategoryDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7817C2B29719F7C00320476 /* OSCAMapCategoryDetailCellView.swift */; };
+		F7817C2E29719F8A00320476 /* OSCAMapCategoryDetailCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7817C2D29719F8A00320476 /* OSCAMapCategoryDetailCellViewModel.swift */; };
+		F7D75BBB296DBF9C001E1AC6 /* OSCAMapCategoryDetailListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D75BBA296DBF9C001E1AC6 /* OSCAMapCategoryDetailListViewController.storyboard */; };
+		F7D75BBD296DBFFA001E1AC6 /* OSCAMapCategoryDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75BBC296DBFFA001E1AC6 /* OSCAMapCategoryDetailListViewController.swift */; };
+		F7D75BBF296DC205001E1AC6 /* OSCAMapCategoryDetailListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75BBE296DC205001E1AC6 /* OSCAMapCategoryDetailListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11DB48AF27CE6E5800C6CB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11DB489C27CE6E5700C6CB87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11DB48A427CE6E5700C6CB87;
+			remoteInfo = OSCAMapUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11DB48CE27CE6F5500C6CB87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11DB48CD27CE6F5500C6CB87 /* OSCAMap.framework in Embed Frameworks */,
+				11442BB627CE856A0021724A /* OSCAEssentials.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		110C13E527D5E52100903937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1124174C27CF3BF40043DAA7 /* OSCAMapUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSCAMapUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1124174F27CF3BF40043DAA7 /* OSCAMapUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAMapUITests.swift; sourceTree = "<group>"; };
+		1131738227E36A8B00D2CF93 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1131738427E36A9600D2CF93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1139EFEF28C9C8FC0050FAD4 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = ../../../../../SupportingFiles/Development.xcconfig; sourceTree = "<group>"; };
+		1139EFF228C9C98B0050FAD4 /* MapFlow+OSCADeeplinkHandeble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapFlow+OSCADeeplinkHandeble.swift"; sourceTree = "<group>"; };
+		1139F00228C9D8900050FAD4 /* MapDI+DeeplinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapDI+DeeplinkHandler.swift"; sourceTree = "<group>"; };
+		1139F01228C9EB400050FAD4 /* UIViewController+BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BottomSheet.swift"; sourceTree = "<group>"; };
+		1139F01428C9EB8D0050FAD4 /* UIScrollView+BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+BottomSheet.swift"; sourceTree = "<group>"; };
+		11442BB427CE856A0021724A /* OSCAEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11442BB927CE87830021724A /* OSCAMapUI+DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSCAMapUI+DIContainer.swift"; sourceTree = "<group>"; };
+		116256E527CF3DD9007B9F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		116256E627CF3DE9007B9F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1174D49128A9611A0054B200 /* OSCAMapCategoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapCategoryViewController.storyboard; sourceTree = "<group>"; };
+		1174D49228A9651E0054B200 /* OSCAMapCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryViewModel.swift; sourceTree = "<group>"; };
+		1174D49328A9651E0054B200 /* OSCAMapCategoryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryCellViewModel.swift; sourceTree = "<group>"; };
+		1174D49428A965290054B200 /* OSCAMapCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryViewController.swift; sourceTree = "<group>"; };
+		1174D49528A965290054B200 /* OSCAMapCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		118DC3AA2861997300365384 /* libOSCATestCaseExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOSCATestCaseExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A5FD33287C3A190066ECFE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11A5FD34287C3A190066ECFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11B2977528DB55C5006D9058 /* API_Develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Develop.plist; path = ../../../../../SupportingFiles/API_Develop.plist; sourceTree = "<group>"; };
+		11B2977628DB55C5006D9058 /* API_Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Release.plist; path = ../../../../../SupportingFiles/API_Release.plist; sourceTree = "<group>"; };
+		11BE1D8528A9031200033A82 /* OSCAMapFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapFlowCoordinator.swift; sourceTree = "<group>"; };
+		11C9226028AA8EE5004F33D3 /* OSCAMapUI+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCAMapUI+ViewModel.swift"; sourceTree = "<group>"; };
+		11D0E0AE287D43B60094C026 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Production.xcconfig; path = ../../../../../SupportingFiles/Production.xcconfig; sourceTree = "<group>"; };
+		11DB48A527CE6E5700C6CB87 /* OSCAMapUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCAMapUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DB48AD27CE6E5800C6CB87 /* OSCAMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCAMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DB48BD27CE6EDE00C6CB87 /* OSCAMapUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAMapUI.swift; sourceTree = "<group>"; };
+		11DB48C427CE6EDE00C6CB87 /* OSCAMapUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAMapUI.h; sourceTree = "<group>"; };
+		11DB48CB27CE6F5500C6CB87 /* OSCAMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F26BFB28AD3D4E005719EC /* OSCAPoiAnnotationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPoiAnnotationMarkerView.swift; sourceTree = "<group>"; };
+		11F26BFC28AD3D4E005719EC /* OSCAPoiAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPoiAnnotationView.swift; sourceTree = "<group>"; };
+		11F26BFF28AD3D8B005719EC /* OSCAPoiAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPoiAnnotation.swift; sourceTree = "<group>"; };
+		11FC170F2875E7350056F002 /* OSCATestCaseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCATestCaseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		272EEB9528B4C7FD0099A8D5 /* OSCAPOISearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOISearchResultViewModel.swift; sourceTree = "<group>"; };
+		272EEB9728B4C80E0099A8D5 /* OSCAPOISearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOISearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		272EEB9E28B4E4880099A8D5 /* OSCAMapCategoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDelegate.swift; sourceTree = "<group>"; };
+		2768496D28B56AD200B301B8 /* OSCAPOIDetailImageCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailImageCellViewModel.swift; sourceTree = "<group>"; };
+		2768496F28B56AE500B301B8 /* OSCAPOIDetailImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		27A85F2F2866636B007178CA /* BottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetController.swift; sourceTree = "<group>"; };
+		27A85F352866674E007178CA /* OSCAMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapViewController.swift; sourceTree = "<group>"; };
+		27A85F37286667D0007178CA /* OSCAMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapViewModel.swift; sourceTree = "<group>"; };
+		27A85F39286667E4007178CA /* OSCAMapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapViewController.storyboard; sourceTree = "<group>"; };
+		27A85F4F2866A8C7007178CA /* OSCAPOIDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAPOIDetailViewController.storyboard; sourceTree = "<group>"; };
+		27A85F522866A8D4007178CA /* OSCAPOIDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailViewModel.swift; sourceTree = "<group>"; };
+		27A85F542866A8D9007178CA /* OSCAPOIDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailViewController.swift; sourceTree = "<group>"; };
+		27A85F562866BB02007178CA /* OSCAPOIDetailTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailTextViewModel.swift; sourceTree = "<group>"; };
+		27A85F582866BB14007178CA /* OSCAPOIDetailTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailTextTableViewCell.swift; sourceTree = "<group>"; };
+		27CD944228B6750D00784067 /* OSCAPOIDetailHighlightedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailHighlightedViewModel.swift; sourceTree = "<group>"; };
+		27CD944428B6752300784067 /* OSCAPOIDetailHighlightedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAPOIDetailHighlightedTableViewCell.swift; sourceTree = "<group>"; };
+		C86A989B2A091C1300C518D7 /* OSCAMapMainWidgetViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapMainWidgetViewController.storyboard; sourceTree = "<group>"; };
+		C86A989D2A091C5B00C518D7 /* OSCAMapMainWidgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapMainWidgetViewController.swift; sourceTree = "<group>"; };
+		C86A989F2A091EB700C518D7 /* OSCAMapMainWidgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapMainWidgetViewModel.swift; sourceTree = "<group>"; };
+		C86A98A12A09287300C518D7 /* OSCAMapWidgetFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapWidgetFlowCoordinator.swift; sourceTree = "<group>"; };
+		C878EA2B28F7FEF000C3C59D /* OSCAMapFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		C878EA2F28F80B6000C3C59D /* OSCAMapFilterCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAMapFilterCellViewModel.swift; sourceTree = "<group>"; };
+		F715E841296C17F0005CBF7F /* OSCAMapCategoryDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapCategoryDetailViewController.storyboard; sourceTree = "<group>"; };
+		F715E843296C1896005CBF7F /* OSCAMapCategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailViewController.swift; sourceTree = "<group>"; };
+		F715E845296C1955005CBF7F /* OSCAMapCategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		F76AA05A2976A6E200C006A9 /* OSCAMapCategoryDetailHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailHeaderReusableView.swift; sourceTree = "<group>"; };
+		F76AA05C2976A78100C006A9 /* OSCAMapCategoryDetailHeaderReusableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailHeaderReusableViewModel.swift; sourceTree = "<group>"; };
+		F777DEFC296703C3000C7F25 /* OSCAMapContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapContainerViewController.swift; sourceTree = "<group>"; };
+		F777DF02296717D6000C7F25 /* OSCAMapContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapContainerViewModel.swift; sourceTree = "<group>"; };
+		F777DF0429671E48000C7F25 /* OSCAMapContainerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapContainerViewController.storyboard; sourceTree = "<group>"; };
+		F7817C2B29719F7C00320476 /* OSCAMapCategoryDetailCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailCellView.swift; sourceTree = "<group>"; };
+		F7817C2D29719F8A00320476 /* OSCAMapCategoryDetailCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailCellViewModel.swift; sourceTree = "<group>"; };
+		F7D75BBA296DBF9C001E1AC6 /* OSCAMapCategoryDetailListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OSCAMapCategoryDetailListViewController.storyboard; sourceTree = "<group>"; };
+		F7D75BBC296DBFFA001E1AC6 /* OSCAMapCategoryDetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailListViewController.swift; sourceTree = "<group>"; };
+		F7D75BBE296DC205001E1AC6 /* OSCAMapCategoryDetailListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAMapCategoryDetailListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DB48A227CE6E5700C6CB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E377BF27F62039002B6042 /* Atomics in Frameworks */,
+				110A2FC329266ABD0045DC91 /* DeviceKit in Frameworks */,
+				11DB48CC27CE6F5500C6CB87 /* OSCAMap.framework in Frameworks */,
+				11442BB527CE856A0021724A /* OSCAEssentials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB48AA27CE6E5800C6CB87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC17102875E7350056F002 /* OSCATestCaseExtension.framework in Frameworks */,
+				11DB48AE27CE6E5800C6CB87 /* OSCAMapUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1139EFF128C9C92D0050FAD4 /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1139EFF228C9C98B0050FAD4 /* MapFlow+OSCADeeplinkHandeble.swift */,
+				1139F00228C9D8900050FAD4 /* MapDI+DeeplinkHandler.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		1139F01128C9EB250050FAD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1139F01228C9EB400050FAD4 /* UIViewController+BottomSheet.swift */,
+				1139F01428C9EB8D0050FAD4 /* UIScrollView+BottomSheet.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		118119E3285A0D5B00253965 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		1182DE1228A4CD1A00E386CE /* MapScene */ = {
+			isa = PBXGroup;
+			children = (
+				1139F01128C9EB250050FAD4 /* Extensions */,
+				27A85F2F2866636B007178CA /* BottomSheetController.swift */,
+				1182DE1E28A4D8E700E386CE /* MapContent */,
+				1182DE1528A4D47F00E386CE /* BottomSheetChilds */,
+				C86A98972A091B8D00C518D7 /* MapWidget */,
+				1182DE2228A4D96100E386CE /* Flows */,
+			);
+			path = MapScene;
+			sourceTree = "<group>";
+		};
+		1182DE1528A4D47F00E386CE /* BottomSheetChilds */ = {
+			isa = PBXGroup;
+			children = (
+				F777DEFE29671776000C7F25 /* ContainerView */,
+				1182DE1A28A4D7D400E386CE /* CategoriesView */,
+				F721E4E0296C0D1B003160E3 /* CategoryDetailView */,
+				F7D75BB6296DBDA5001E1AC6 /* CategoryDetailListView */,
+				1182DE1628A4D5F200E386CE /* PoiDetailsView */,
+			);
+			path = BottomSheetChilds;
+			sourceTree = "<group>";
+		};
+		1182DE1628A4D5F200E386CE /* PoiDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				1182DE1928A4D62700E386CE /* ViewModel */,
+				1182DE1828A4D61E00E386CE /* Controller */,
+				1182DE1728A4D60A00E386CE /* View */,
+			);
+			path = PoiDetailsView;
+			sourceTree = "<group>";
+		};
+		1182DE1728A4D60A00E386CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27A85F4F2866A8C7007178CA /* OSCAPOIDetailViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1182DE1828A4D61E00E386CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27CD944428B6752300784067 /* OSCAPOIDetailHighlightedTableViewCell.swift */,
+				2768496F28B56AE500B301B8 /* OSCAPOIDetailImageCollectionViewCell.swift */,
+				27A85F582866BB14007178CA /* OSCAPOIDetailTextTableViewCell.swift */,
+				27A85F542866A8D9007178CA /* OSCAPOIDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1182DE1928A4D62700E386CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27CD944228B6750D00784067 /* OSCAPOIDetailHighlightedViewModel.swift */,
+				2768496D28B56AD200B301B8 /* OSCAPOIDetailImageCellViewModel.swift */,
+				27A85F562866BB02007178CA /* OSCAPOIDetailTextViewModel.swift */,
+				27A85F522866A8D4007178CA /* OSCAPOIDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1182DE1A28A4D7D400E386CE /* CategoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				272EEB9D28B4E4720099A8D5 /* Protocol */,
+				1182DE1B28A4D89C00E386CE /* ViewModel */,
+				1182DE1D28A4D8A400E386CE /* Controller */,
+				1182DE1C28A4D8A400E386CE /* View */,
+			);
+			path = CategoriesView;
+			sourceTree = "<group>";
+		};
+		1182DE1B28A4D89C00E386CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1174D49228A9651E0054B200 /* OSCAMapCategoryViewModel.swift */,
+				1174D49328A9651E0054B200 /* OSCAMapCategoryCellViewModel.swift */,
+				272EEB9528B4C7FD0099A8D5 /* OSCAPOISearchResultViewModel.swift */,
+				C878EA2F28F80B6000C3C59D /* OSCAMapFilterCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1182DE1C28A4D8A400E386CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1174D49128A9611A0054B200 /* OSCAMapCategoryViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1182DE1D28A4D8A400E386CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1174D49428A965290054B200 /* OSCAMapCategoryViewController.swift */,
+				1174D49528A965290054B200 /* OSCAMapCategoryCollectionViewCell.swift */,
+				272EEB9728B4C80E0099A8D5 /* OSCAPOISearchResultTableViewCell.swift */,
+				C878EA2B28F7FEF000C3C59D /* OSCAMapFilterCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1182DE1E28A4D8E700E386CE /* MapContent */ = {
+			isa = PBXGroup;
+			children = (
+				1182DE2128A4D92900E386CE /* ViewModel */,
+				1182DE1F28A4D92900E386CE /* Controller */,
+				1182DE2028A4D92900E386CE /* View */,
+			);
+			path = MapContent;
+			sourceTree = "<group>";
+		};
+		1182DE1F28A4D92900E386CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27A85F352866674E007178CA /* OSCAMapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1182DE2028A4D92900E386CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11F26BFB28AD3D4E005719EC /* OSCAPoiAnnotationMarkerView.swift */,
+				11F26BFC28AD3D4E005719EC /* OSCAPoiAnnotationView.swift */,
+				27A85F39286667E4007178CA /* OSCAMapViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1182DE2128A4D92900E386CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11F26BFF28AD3D8B005719EC /* OSCAPoiAnnotation.swift */,
+				27A85F37286667D0007178CA /* OSCAMapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1182DE2228A4D96100E386CE /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				11BE1D8528A9031200033A82 /* OSCAMapFlowCoordinator.swift */,
+				C86A98A12A09287300C518D7 /* OSCAMapWidgetFlowCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		11A5FD31287C3A190066ECFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B2977528DB55C5006D9058 /* API_Develop.plist */,
+				11B2977628DB55C5006D9058 /* API_Release.plist */,
+				11A5FD32287C3A190066ECFE /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11D0E086287D407E0094C026 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1139EFEF28C9C8FC0050FAD4 /* Development.xcconfig */,
+				11D0E0AE287D43B60094C026 /* Production.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		11DB489B27CE6E5700C6CB87 = {
+			isa = PBXGroup;
+			children = (
+				118119E3285A0D5B00253965 /* scripts */,
+				11DB48A727CE6E5700C6CB87 /* OSCAMapUI */,
+				11DB48B127CE6E5800C6CB87 /* OSCAMapUITests */,
+				11DB48A627CE6E5700C6CB87 /* Products */,
+				11DB48CA27CE6F5500C6CB87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11DB48A627CE6E5700C6CB87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DB48A527CE6E5700C6CB87 /* OSCAMapUI.framework */,
+				11DB48AD27CE6E5800C6CB87 /* OSCAMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DB48A727CE6E5700C6CB87 /* OSCAMapUI */ = {
+			isa = PBXGroup;
+			children = (
+				1139EFF128C9C92D0050FAD4 /* Deeplink */,
+				1182DE1228A4CD1A00E386CE /* MapScene */,
+				11442BB927CE87830021724A /* OSCAMapUI+DIContainer.swift */,
+				11C9226028AA8EE5004F33D3 /* OSCAMapUI+ViewModel.swift */,
+				11DB48BD27CE6EDE00C6CB87 /* OSCAMapUI.swift */,
+				116256E527CF3DD9007B9F0E /* Info.plist */,
+				11DB48C427CE6EDE00C6CB87 /* OSCAMapUI.h */,
+				11DB48BE27CE6EDE00C6CB87 /* Resources */,
+				11D0E086287D407E0094C026 /* SupportingFiles */,
+			);
+			path = OSCAMapUI;
+			sourceTree = "<group>";
+		};
+		11DB48B127CE6E5800C6CB87 /* OSCAMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A5FD31287C3A190066ECFE /* Resources */,
+				116256E627CF3DE9007B9F0E /* Info.plist */,
+				1124174F27CF3BF40043DAA7 /* OSCAMapUITests.swift */,
+				1124174C27CF3BF40043DAA7 /* OSCAMapUITests-Bridging-Header.h */,
+			);
+			path = OSCAMapUITests;
+			sourceTree = "<group>";
+		};
+		11DB48BE27CE6EDE00C6CB87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1131738127E36A8B00D2CF93 /* Localizable.strings */,
+				110C13E527D5E52100903937 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11DB48CA27CE6F5500C6CB87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FC170F2875E7350056F002 /* OSCATestCaseExtension.framework */,
+				118DC3AA2861997300365384 /* libOSCATestCaseExtension.a */,
+				11442BB427CE856A0021724A /* OSCAEssentials.framework */,
+				11DB48CB27CE6F5500C6CB87 /* OSCAMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272EEB9D28B4E4720099A8D5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				272EEB9E28B4E4880099A8D5 /* OSCAMapCategoryDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C86A98972A091B8D00C518D7 /* MapWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C86A98982A091B9C00C518D7 /* ViewModel */,
+				C86A98992A091BA300C518D7 /* Controller */,
+				C86A989A2A091BAB00C518D7 /* View */,
+			);
+			path = MapWidget;
+			sourceTree = "<group>";
+		};
+		C86A98982A091B9C00C518D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C86A989F2A091EB700C518D7 /* OSCAMapMainWidgetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C86A98992A091BA300C518D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C86A989D2A091C5B00C518D7 /* OSCAMapMainWidgetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C86A989A2A091BAB00C518D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C86A989B2A091C1300C518D7 /* OSCAMapMainWidgetViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F721E4E0296C0D1B003160E3 /* CategoryDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				F721E4E3296C0D47003160E3 /* ViewModel */,
+				F721E4E2296C0D3A003160E3 /* Controller */,
+				F721E4E1296C0D35003160E3 /* View */,
+			);
+			path = CategoryDetailView;
+			sourceTree = "<group>";
+		};
+		F721E4E1296C0D35003160E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F715E841296C17F0005CBF7F /* OSCAMapCategoryDetailViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F721E4E2296C0D3A003160E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F715E843296C1896005CBF7F /* OSCAMapCategoryDetailViewController.swift */,
+				F7817C2B29719F7C00320476 /* OSCAMapCategoryDetailCellView.swift */,
+				F76AA05A2976A6E200C006A9 /* OSCAMapCategoryDetailHeaderReusableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F721E4E3296C0D47003160E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F715E845296C1955005CBF7F /* OSCAMapCategoryDetailViewModel.swift */,
+				F7817C2D29719F8A00320476 /* OSCAMapCategoryDetailCellViewModel.swift */,
+				F76AA05C2976A78100C006A9 /* OSCAMapCategoryDetailHeaderReusableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F777DEFE29671776000C7F25 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				F777DF012967179B000C7F25 /* ViewModel */,
+				F777DF0029671791000C7F25 /* Controller */,
+				F777DEFF29671789000C7F25 /* View */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		F777DEFF29671789000C7F25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F777DF0429671E48000C7F25 /* OSCAMapContainerViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F777DF0029671791000C7F25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F777DEFC296703C3000C7F25 /* OSCAMapContainerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F777DF012967179B000C7F25 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F777DF02296717D6000C7F25 /* OSCAMapContainerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7D75BB6296DBDA5001E1AC6 /* CategoryDetailListView */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75BB9296DBDD6001E1AC6 /* ViewModel */,
+				F7D75BB8296DBDCA001E1AC6 /* Controller */,
+				F7D75BB7296DBDBF001E1AC6 /* View */,
+			);
+			path = CategoryDetailListView;
+			sourceTree = "<group>";
+		};
+		F7D75BB7296DBDBF001E1AC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75BBA296DBF9C001E1AC6 /* OSCAMapCategoryDetailListViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7D75BB8296DBDCA001E1AC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75BBC296DBFFA001E1AC6 /* OSCAMapCategoryDetailListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7D75BB9296DBDD6001E1AC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75BBE296DC205001E1AC6 /* OSCAMapCategoryDetailListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11DB48A027CE6E5700C6CB87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB48C927CE6EDE00C6CB87 /* OSCAMapUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11DB48A427CE6E5700C6CB87 /* OSCAMapUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DB48B727CE6E5800C6CB87 /* Build configuration list for PBXNativeTarget "OSCAMapUI" */;
+			buildPhases = (
+				11DB48A027CE6E5700C6CB87 /* Headers */,
+				11DB48A127CE6E5700C6CB87 /* Sources */,
+				11DB48A227CE6E5700C6CB87 /* Frameworks */,
+				11DB48A327CE6E5700C6CB87 /* Resources */,
+				11DB48CE27CE6F5500C6CB87 /* Embed Frameworks */,
+				27CD944628B68F5F00784067 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCAMapUI;
+			packageProductDependencies = (
+				11E377BE27F62039002B6042 /* Atomics */,
+				110A2FC229266ABD0045DC91 /* DeviceKit */,
+			);
+			productName = OSCAMapUI;
+			productReference = 11DB48A527CE6E5700C6CB87 /* OSCAMapUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11DB48AC27CE6E5800C6CB87 /* OSCAMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DB48BA27CE6E5800C6CB87 /* Build configuration list for PBXNativeTarget "OSCAMapUITests" */;
+			buildPhases = (
+				11DB48A927CE6E5800C6CB87 /* Sources */,
+				11DB48AA27CE6E5800C6CB87 /* Frameworks */,
+				11DB48AB27CE6E5800C6CB87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11DB48B027CE6E5800C6CB87 /* PBXTargetDependency */,
+			);
+			name = OSCAMapUITests;
+			productName = OSCAMapUITests;
+			productReference = 11DB48AD27CE6E5800C6CB87 /* OSCAMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DB489C27CE6E5700C6CB87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					11DB48A427CE6E5700C6CB87 = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
+					};
+					11DB48AC27CE6E5800C6CB87 = {
+						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 11DB489F27CE6E5700C6CB87 /* Build configuration list for PBXProject "OSCAMapUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = 11DB489B27CE6E5700C6CB87;
+			packageReferences = (
+				11E377BD27F62039002B6042 /* XCRemoteSwiftPackageReference "swift-atomics" */,
+				110A2FC129266ABD0045DC91 /* XCRemoteSwiftPackageReference "DeviceKit" */,
+			);
+			productRefGroup = 11DB48A627CE6E5700C6CB87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DB48A427CE6E5700C6CB87 /* OSCAMapUI */,
+				11DB48AC27CE6E5800C6CB87 /* OSCAMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11DB48A327CE6E5700C6CB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A85F3A286667E4007178CA /* OSCAMapViewController.storyboard in Resources */,
+				F7D75BBB296DBF9C001E1AC6 /* OSCAMapCategoryDetailListViewController.storyboard in Resources */,
+				1131738327E36A8B00D2CF93 /* Localizable.strings in Resources */,
+				F777DF0529671E48000C7F25 /* OSCAMapContainerViewController.storyboard in Resources */,
+				F715E842296C17F0005CBF7F /* OSCAMapCategoryDetailViewController.storyboard in Resources */,
+				C86A989C2A091C1300C518D7 /* OSCAMapMainWidgetViewController.storyboard in Resources */,
+				27A85F502866A8C7007178CA /* OSCAPOIDetailViewController.storyboard in Resources */,
+				27D0142C28B3C70F007438B0 /* OSCAMapCategoryViewController.storyboard in Resources */,
+				110C13E627D5E52100903937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB48AB27CE6E5800C6CB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B2977828DB55C5006D9058 /* API_Release.plist in Resources */,
+				11A5FD35287C3A190066ECFE /* Localizable.strings in Resources */,
+				11B2977728DB55C5006D9058 /* API_Develop.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27CD944628B68F5F00784067 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DB48A127CE6E5700C6CB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272EEB9F28B4E4880099A8D5 /* OSCAMapCategoryDelegate.swift in Sources */,
+				27A85F592866BB14007178CA /* OSCAPOIDetailTextTableViewCell.swift in Sources */,
+				1174D49628AA28A60054B200 /* OSCAMapCategoryViewController.swift in Sources */,
+				F777DF03296717D6000C7F25 /* OSCAMapContainerViewModel.swift in Sources */,
+				F7D75BBD296DBFFA001E1AC6 /* OSCAMapCategoryDetailListViewController.swift in Sources */,
+				27A85F572866BB02007178CA /* OSCAPOIDetailTextViewModel.swift in Sources */,
+				27A85F302866636B007178CA /* BottomSheetController.swift in Sources */,
+				1174D49828AA28C20054B200 /* OSCAMapCategoryCellViewModel.swift in Sources */,
+				2768496E28B56AD200B301B8 /* OSCAPOIDetailImageCellViewModel.swift in Sources */,
+				11C9226128AA8EE5004F33D3 /* OSCAMapUI+ViewModel.swift in Sources */,
+				F7817C2E29719F8A00320476 /* OSCAMapCategoryDetailCellViewModel.swift in Sources */,
+				C86A98A02A091EB700C518D7 /* OSCAMapMainWidgetViewModel.swift in Sources */,
+				27CD944528B6752300784067 /* OSCAPOIDetailHighlightedTableViewCell.swift in Sources */,
+				F76AA05B2976A6E200C006A9 /* OSCAMapCategoryDetailHeaderReusableView.swift in Sources */,
+				C878EA2C28F7FEF000C3C59D /* OSCAMapFilterCollectionViewCell.swift in Sources */,
+				27CD944328B6750D00784067 /* OSCAPOIDetailHighlightedViewModel.swift in Sources */,
+				F777DEFD296703C3000C7F25 /* OSCAMapContainerViewController.swift in Sources */,
+				11F26BFD28AD3D4E005719EC /* OSCAPoiAnnotationMarkerView.swift in Sources */,
+				1139F01328C9EB400050FAD4 /* UIViewController+BottomSheet.swift in Sources */,
+				272EEB9828B4C80E0099A8D5 /* OSCAPOISearchResultTableViewCell.swift in Sources */,
+				1139F00328C9D8900050FAD4 /* MapDI+DeeplinkHandler.swift in Sources */,
+				F715E844296C1896005CBF7F /* OSCAMapCategoryDetailViewController.swift in Sources */,
+				272EEB9628B4C7FD0099A8D5 /* OSCAPOISearchResultViewModel.swift in Sources */,
+				27A85F552866A8D9007178CA /* OSCAPOIDetailViewController.swift in Sources */,
+				F7D75BBF296DC205001E1AC6 /* OSCAMapCategoryDetailListViewModel.swift in Sources */,
+				1139F01528C9EB8D0050FAD4 /* UIScrollView+BottomSheet.swift in Sources */,
+				27A85F532866A8D4007178CA /* OSCAPOIDetailViewModel.swift in Sources */,
+				1139EFF328C9C98B0050FAD4 /* MapFlow+OSCADeeplinkHandeble.swift in Sources */,
+				11DB48C527CE6EDE00C6CB87 /* OSCAMapUI.swift in Sources */,
+				C86A98A22A09287300C518D7 /* OSCAMapWidgetFlowCoordinator.swift in Sources */,
+				27A85F38286667D0007178CA /* OSCAMapViewModel.swift in Sources */,
+				1174D49728AA28BD0054B200 /* OSCAMapCategoryViewModel.swift in Sources */,
+				1174D49928AA28CF0054B200 /* OSCAMapCategoryCollectionViewCell.swift in Sources */,
+				11BE1D8628A9031200033A82 /* OSCAMapFlowCoordinator.swift in Sources */,
+				F7817C2C29719F7C00320476 /* OSCAMapCategoryDetailCellView.swift in Sources */,
+				C878EA3028F80B6000C3C59D /* OSCAMapFilterCellViewModel.swift in Sources */,
+				11442BBA27CE87830021724A /* OSCAMapUI+DIContainer.swift in Sources */,
+				11F26C0028AD3D8B005719EC /* OSCAPoiAnnotation.swift in Sources */,
+				C86A989E2A091C5B00C518D7 /* OSCAMapMainWidgetViewController.swift in Sources */,
+				11F26BFE28AD3D4E005719EC /* OSCAPoiAnnotationView.swift in Sources */,
+				2768497028B56AE500B301B8 /* OSCAPOIDetailImageCollectionViewCell.swift in Sources */,
+				F76AA05D2976A78100C006A9 /* OSCAMapCategoryDetailHeaderReusableViewModel.swift in Sources */,
+				F715E846296C1955005CBF7F /* OSCAMapCategoryDetailViewModel.swift in Sources */,
+				27A85F362866674E007178CA /* OSCAMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB48A927CE6E5800C6CB87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1124175127CF3BF40043DAA7 /* OSCAMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11DB48B027CE6E5800C6CB87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11DB48A427CE6E5700C6CB87 /* OSCAMapUI */;
+			targetProxy = 11DB48AF27CE6E5800C6CB87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1131738127E36A8B00D2CF93 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1131738227E36A8B00D2CF93 /* de */,
+				1131738427E36A9600D2CF93 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11A5FD32287C3A190066ECFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A5FD33287C3A190066ECFE /* de */,
+				11A5FD34287C3A190066ECFE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11DB48B527CE6E5800C6CB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1139EFEF28C9C8FC0050FAD4 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11DB48B627CE6E5800C6CB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0AE287D43B60094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11DB48B827CE6E5800C6CB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1139EFEF28C9C8FC0050FAD4 /* Development.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAMapUI/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.map.ui;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11DB48B927CE6E5800C6CB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0AE287D43B60094C026 /* Production.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAMapUI/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.map.ui;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11DB48BB27CE6E5800C6CB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1139EFEF28C9C8FC0050FAD4 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAMapUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.map.ui.OSCAMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSCAMapUITests/OSCAMapUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11DB48BC27CE6E5800C6CB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0AE287D43B60094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCAMapUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.map.ui.OSCAMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "OSCAMapUITests/OSCAMapUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DB489F27CE6E5700C6CB87 /* Build configuration list for PBXProject "OSCAMapUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB48B527CE6E5800C6CB87 /* Debug */,
+				11DB48B627CE6E5800C6CB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		11DB48B727CE6E5800C6CB87 /* Build configuration list for PBXNativeTarget "OSCAMapUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB48B827CE6E5800C6CB87 /* Debug */,
+				11DB48B927CE6E5800C6CB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		11DB48BA27CE6E5800C6CB87 /* Build configuration list for PBXNativeTarget "OSCAMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB48BB27CE6E5800C6CB87 /* Debug */,
+				11DB48BC27CE6E5800C6CB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		110A2FC129266ABD0045DC91 /* XCRemoteSwiftPackageReference "DeviceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devicekit/DeviceKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		11E377BD27F62039002B6042 /* XCRemoteSwiftPackageReference "swift-atomics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-atomics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		110A2FC229266ABD0045DC91 /* DeviceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 110A2FC129266ABD0045DC91 /* XCRemoteSwiftPackageReference "DeviceKit" */;
+			productName = DeviceKit;
+		};
+		11E377BE27F62039002B6042 /* Atomics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11E377BD27F62039002B6042 /* XCRemoteSwiftPackageReference "swift-atomics" */;
+			productName = Atomics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11DB489C27CE6E5700C6CB87 /* Project object */;
+}
